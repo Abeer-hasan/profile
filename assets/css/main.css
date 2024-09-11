@@ -2263,3 +2263,13 @@ input, select, textarea {
 			width: calc(100% - 10px);
 		  }
 		  
+        .job-item {
+            overflow: hidden;
+            margin-bottom: 0.5px; /* Adjust the space between job items */
+        }
+
+        .job-item p, .job-item strong {
+            margin: 0;
+            padding: 0;
+        }
+    
