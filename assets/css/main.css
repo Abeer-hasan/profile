@@ -1779,10 +1779,11 @@ input, select, textarea {
 		#nav a {
 			
 			display: inline;
+			vertical-align: top;
 			color: #ffffff;
 			width: 1em;
 			height: 1em;
-			line-height: 0.9em;
+			line-height: 0em;
 			font-size: 2.5em;
 			margin: 0 0.25em 0 0.25em;
 			opacity: 0.35;
@@ -1822,7 +1823,7 @@ input, select, textarea {
 				
 				background: #222222;
 				color: #ffffff;
-				top: -2.75em;
+				top: -1.00em;
 				font-size: 0.3em;
 				height: 2.25em;
 				line-height: 2.25em;
@@ -1879,7 +1880,7 @@ input, select, textarea {
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
-		padding: 4em 0;
+		padding: 1em 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
